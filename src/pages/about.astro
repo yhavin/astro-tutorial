@@ -5,12 +5,12 @@ const pageTitle = "About me";
 
 const identity = {
 	firstName: "Yakir",
-	country: "Australia",
-	occupation: "Chief Vibe Officer",
-	hobbies: ["vibing", "cooking"]
+	country: "the United States",
+	occupation: "Software Engineer",
+	hobbies: ["reading", "cooking"]
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["Searing steaks", "Salting food to perfection", "Not reading bad books", "Doing maths after a couple drinks"];
 
 const happy = true;
 const finished = true;
@@ -26,7 +26,7 @@ const textCase = "uppercase";
 	<p>Here are a few facts about me:</p>
 	<ul>
 		<li>My name is {identity.firstName}</li>
-		<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+		<li>I live in {identity.country} and I work as a {identity.occupation}</li>
 		{identity.hobbies.length >= 2 &&
 			<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
 		}
